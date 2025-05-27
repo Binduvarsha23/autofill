@@ -67,7 +67,7 @@ const AutoComplete = () => {
           zIndex: 1000,
         }}
       >
-        <h2 className="text-center text-primary mb-4 fw-bold">SearchPro</h2>
+        <h2 className="text-center text-primary mb-4 fw-bold">Search Topics</h2>
         <div className="position-relative">
           <label htmlFor="search-input" className="visually-hidden">Search topics</label>
           <i
@@ -84,7 +84,7 @@ const AutoComplete = () => {
             id="search-input"
             type="text"
             className="form-control form-control-lg ps-5 pe-5"
-            placeholder="Start typing e.g. react"
+            placeholder="Search.."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             aria-describedby="search-results"
