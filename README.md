@@ -1,5 +1,4 @@
 
-```
 # 🔍 Autofill Search Input with LRU Cache
 
 This is a React application built using Vite that implements an intelligent autofill (autocomplete) input. It filters suggestions based on user input, optimizes performance with an LRU cache, and highlights matched text.
@@ -18,8 +17,6 @@ This is a React application built using Vite that implements an intelligent auto
 
 ## 📁 Project Structure
 
-```
-
 src/
 │
 ├── components/
@@ -31,7 +28,6 @@ src/
 ├── dummy.json                # Static dummy data for suggestions
 └── App.jsx / main.jsx        # Root component and entry point
 
-````
 
 ## 🔧 Getting Started
 
@@ -52,7 +48,6 @@ npm install
 
 # Start the development server
 npm run dev
-````
 
 ## 🧠 How It Works
 
